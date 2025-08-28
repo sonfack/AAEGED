@@ -1,0 +1,22 @@
+# requirements.txt
+
+# Pour le traitement de texte
+spacy==3.7.5
+# Modèle français pour spaCy (à installer séparément)
+# python -m spacy download fr_core_news_lg
+
+# Pour l'extraction depuis les PDF
+unstructured[pdf]==0.14.9
+# unstructured a besoin de dépendances système, ex: `apt-get install poppler-utils` sur Debian/Ubuntu
+
+# Pour la manipulation de graphes RDF
+rdflib==7.0.0
+
+# Pour l'appel aux modèles de langue sur le Hub
+huggingface-hub==0.23.4
+# Note : `transformers` n'est pas requis pour InferenceClient, mais peut être utile
+# transformers==4.41.2
+# sentence-transformers==3.0.1 (si vous réintégrez la similarité)
+
+# Utilitaires
+tqdm==4.66.4

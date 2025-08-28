@@ -1,0 +1,696 @@
+[
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#BE",
+    "http://www.enit.fr/2022/03/baeo#operatesIn": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Environment"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#TransportAerienCommercial",
+    "http://www.enit.fr/2022/03/baeo#hasContext": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Activity"
+      }
+    ],
+    "http://www.enit.fr/2022/03/baeo#operatesIn": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Environment_Aerial"
+      }
+    ],
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#AcheminementParAeronef"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#RespectExigencesAssurance",
+    "http://www.enit.fr/2022/03/baeo#yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#ConsequenceAssuranceDefiniesReglementCE785_2004_10"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#ObservationMoteurSite",
+    "http://www.enit.fr/2022/03/baeo#operatesIn": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Figure2"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#BEA",
+    "http://www.enit.fr/2022/03/baeo/operations/contacted": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#AESA"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#FelixEboue",
+    "http://www.enit.fr/2022/03/baeo#hasLocation": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Maripasoula"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#LicencePiloteDeLigne",
+    "@type": [
+      "http://www.enit.fr/2022/03/baeo#Licence"
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#ContractAssurance",
+    "http://www.enit.fr/2022/03/baeo#hasSameNumberWith": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#FlightMissionCover"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#DétentionLicenceExploitationTransporteurAérien",
+    "http://www.enit.fr/2022/03/baeo#hasActivity": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#TransportAérien"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#LicencePiloteProfessionnel",
+    "@type": [
+      "http://www.enit.fr/2022/03/baeo#Licence"
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#EtatTechniqueAppareil",
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#VolPermis"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Triplet_2_6_2",
+    "@type": [
+      "http://www.enit.fr/2022/03/baeo#Section"
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#PolicesAssurance",
+    "http://www.enit.fr/2022/03/baeo/hasAgent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#AgentAssurance"
+      }
+    ],
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Assurance"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#AerodromeCayenneFelixEboue",
+    "http://www.enit.fr/2022/03/baeo/typeOf": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Aerodrome"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#ChampAvecArbres",
+    "http://www.enit.fr/2022/03/baeo/locatedInside": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#SiteAccident"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Moteur",
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#ExamenBEA"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Chapter2",
+    "http://www.enit.fr/2022/03/baeo#is_part_of": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Book"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Section_2_6_2",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Section"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#TransportFret",
+    "http://www.enit.fr/2022/03/baeo/hasAgent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#AccidentVol"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#ReductionTemporaireOffreTransportMaripasoula",
+    "http://www.enit.fr/2022/03/baeo/hasContext": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#DifficultiesGuyane"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#AccidentVol",
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#TransportFret"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Triplet_2_6_4",
+    "@type": [
+      "http://www.enit.fr/2022/03/baeo#TemporalEntity"
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Hammer",
+    "http://www.enit.fr/2022/03/baeo#hasAgent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#John"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#FlightMissionCover",
+    "http://www.enit.fr/2022/03/baeo#isCoveredBy": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#ContractAssurance"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Event1",
+    "http://www.enit.fr/2022/03/baeo#hasEvent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#DisruptionOnMaterial"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Integer"
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Air",
+    "http://www.enit.fr/2022/03/baeo#hasAgent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Air"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#DonneurOrdre",
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#CategorieTransportCommercial"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#VolPermis",
+    "http://www.enit.fr/2022/03/baeo/is_part_of": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Vol"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#AccidentSite",
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#ChampAvecArbres"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Number",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Resource"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#ReglementationVol",
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#RespectReglementationVol"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#DiminutionPresionHuile",
+    "http://www.enit.fr/2022/03/baeo#yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#DecisionDetourPilote"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#CadreTransport_2_6_1",
+    "http://www.enit.fr/2022/03/baeo/hasContext": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Transport_2_6_1"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#AeroLogistiques",
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Enquete"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#FuiteHuile",
+    "http://www.enit.fr/2022/03/baeo#affects": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Avion"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#ResponsableSocieteGM",
+    "http://www.enit.fr/2022/03/baeo#hasAgent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#SocieteGM"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Obligation",
+    "http://www.enit.fr/2022/03/baeo/hasContext": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#ReglementCE1008_2008"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Window",
+    "http://www.enit.fr/2022/03/baeo#hasLocation": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#ENITCampus"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#DifficultiesGuyane",
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#ReductionTemporaireOffreTransportMaripasoula"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#QuantiteMetallique",
+    "http://www.enit.fr/2022/03/baeo#anormalementImportante": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#ParticulesMetalliques"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#John",
+    "http://www.enit.fr/2022/03/baeo#agentCauses": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#DisruptionOnMaterial"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#ResponsabilitesDonneurOrdre",
+    "http://www.enit.fr/2022/03/baeo#hasAgent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#DonneurOrdre"
+      }
+    ],
+    "http://www.enit.fr/2022/03/baeo#hasContext": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#ConstructionAerienne"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#RenseignementsMeteorologiques",
+    "http://www.enit.fr/2022/03/baeo#hasContext": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#A_2_4"
+      }
+    ],
+    "http://www.enit.fr/2022/03/baeo#hasDateTimeDescription": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#DateTimeDescription_2_4"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#OSIA",
+    "http://www.enit.fr/2022/03/baeo#hasDateTimeDescription": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#DateTimeDescription_25January2019"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Décollage",
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#PleinePuissanceAppliquée"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#AvarieMoteur",
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#ArretMoteur"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#DistanceAccidentAerodrome",
+    "http://www.enit.fr/2022/03/baeo/valueInUnitsOf": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Kilometers"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Pilote",
+    "http://www.enit.fr/2022/03/baeo#hasAgent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Mission"
+      },
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#InterventionPrecedente"
+      }
+    ],
+    "http://www.enit.fr/2022/03/baeo#hasLegalEmploymentCondition": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#LegalConditions"
+      }
+    ],
+    "http://www.enit.fr/2022/03/baeo#hasQualification": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#LicencesVol"
+      }
+    ],
+    "http://www.enit.fr/2022/03/baeo#isVictimOf": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#ConsequencesDommages"
+      }
+    ],
+    "http://www.enit.fr/2022/03/baeo#operatesIn": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#TourDeControle"
+      }
+    ],
+    "http://www.enit.fr/2022/03/baeo/hasActivity": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#TransmissionContratLocationAvion"
+      }
+    ],
+    "http://www.enit.fr/2022/03/baeo/hasAgent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#MiseAJourLicences"
+      }
+    ],
+    "http://www.enit.fr/2022/03/baeo/hasLicence": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#LicencePiloteProfessionnel"
+      },
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#LicencePiloteDeLigne"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#DisruptionOnMaterial",
+    "http://www.enit.fr/2022/03/baeo#affects": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Window"
+      }
+    ],
+    "http://www.enit.fr/2022/03/baeo#hasDateTimeDescription": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#DateTimeDescription_2022-03-25"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#SocieteGM",
+    "http://www.enit.fr/2022/03/baeo#hasAgent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#ResponsableSocieteGM"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Triplet2_3_2",
+    "http://www.enit.fr/2022/03/baeo#is_part_of": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Section2_3"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#PrélèvementsHuile",
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#ExamenFiltreHuile"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Figure2",
+    "http://www.enit.fr/2022/03/baeo#hasEvent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#ObservationMoteurSite"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#SiteEpave",
+    "@type": [
+      "http://www.enit.fr/2022/03/baeo#Context"
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Five",
+    "@type": [
+      "http://www.enit.fr/2022/03/baeo#Number",
+      "http://www.enit.fr/2022/03/baeo#Integer"
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Activity",
+    "http://www.enit.fr/2022/03/baeo#hasAgent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Agent"
+      }
+    ],
+    "http://www.enit.fr/2022/03/baeo#hasContext": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Context"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Preneur",
+    "http://www.enit.fr/2022/03/baeo#activityHasConsequence": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Responsibility"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#ConduiteAeronef",
+    "http://www.enit.fr/2022/03/baeo#hasAgent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Pilote"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Examens",
+    "http://www.enit.fr/2022/03/baeo#hasActivity": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Activity"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#SiteAccident",
+    "http://www.enit.fr/2022/03/baeo/distanceFrom": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#AerodromeCayenneFelixEboue"
+      }
+    ],
+    "http://www.enit.fr/2022/03/baeo/near": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#AerodromeCayenneFelixEboue"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#ParticulesMetalliques",
+    "http://www.enit.fr/2022/03/baeo#contient": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#QuantiteMetallique"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#DétentionCTA",
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#CertificatTransporteurAérien"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Accident",
+    "http://www.enit.fr/2022/03/baeo/hasAgent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Pilote"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Transport_2_6_1",
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#CadreTransport_2_6_1"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#ContratDistinct",
+    "http://www.enit.fr/2022/03/baeo#hasAgent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#DonneurOrdre"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Section2_3",
+    "http://www.enit.fr/2022/03/baeo#is_part_of": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Chapter2"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#BlessureLégère",
+    "http://www.enit.fr/2022/03/baeo#affects": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#AgentNonHuman"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Vol",
+    "http://www.enit.fr/2022/03/baeo/hasAgent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Pilote"
+      }
+    ],
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#MarchandisesDonneurOrdre"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#ConsequencesDommages",
+    "http://www.enit.fr/2022/03/baeo#affects": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Pilote"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#Cessna206_Immatricule",
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Avion"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#RenseignementsAvion",
+    "http://www.enit.fr/2022/03/baeo#hasContext": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Section2_3"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#ExamenBEA",
+    "http://www.enit.fr/2022/03/baeo/activityHasConsequence": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#NonExecutionExamenMoteur"
+      }
+    ],
+    "http://www.enit.fr/2022/03/baeo/hasAgent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#BEA"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#ContratLocationAvion",
+    "http://www.enit.fr/2022/03/baeo/hasContext": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#ContexteSansPiloteEtCarburant"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#AtterrissagePrecaution",
+    "http://www.enit.fr/2022/03/baeo/yields": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#BandeLaterite"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#ExploitantPrivé",
+    "http://www.enit.fr/2022/03/baeo#hasAgent": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#NonLivingAgent"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.enit.fr/2022/03/baeo#ConditionsMeteorologiques",
+    "http://www.enit.fr/2022/03/baeo#hasLocation": [
+      {
+        "@id": "http://www.enit.fr/2022/03/baeo#Cayenne"
+      }
+    ]
+  }
+]

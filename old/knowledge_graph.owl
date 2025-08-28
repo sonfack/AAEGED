@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:baeo="http://www.enit.fr/2022/03/baeo#"
+   xmlns:ns1="http://www.enit.fr/2022/03/baeo/"
+   xmlns:ns2="http://www.enit.fr/2022/03/baeo/operations/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#TransportAerienCommercial">
+    <baeo:hasContext rdf:resource="http://www.enit.fr/2022/03/baeo#Activity"/>
+    <baeo:operatesIn rdf:resource="http://www.enit.fr/2022/03/baeo#Environment_Aerial"/>
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#AcheminementParAeronef"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Examens">
+    <baeo:hasActivity rdf:resource="http://www.enit.fr/2022/03/baeo#Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Activity">
+    <baeo:hasAgent rdf:resource="http://www.enit.fr/2022/03/baeo#Agent"/>
+    <baeo:hasContext rdf:resource="http://www.enit.fr/2022/03/baeo#Context"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Hammer">
+    <baeo:hasAgent rdf:resource="http://www.enit.fr/2022/03/baeo#John"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Transport_2_6_1">
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#CadreTransport_2_6_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Triplet_2_6_4">
+    <rdf:type rdf:resource="http://www.enit.fr/2022/03/baeo#TemporalEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#LicencePiloteDeLigne">
+    <rdf:type rdf:resource="http://www.enit.fr/2022/03/baeo#Licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#PolicesAssurance">
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#Assurance"/>
+    <ns1:hasAgent rdf:resource="http://www.enit.fr/2022/03/baeo#AgentAssurance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#ContratDistinct">
+    <baeo:hasAgent rdf:resource="http://www.enit.fr/2022/03/baeo#DonneurOrdre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#RenseignementsAvion">
+    <baeo:hasContext rdf:resource="http://www.enit.fr/2022/03/baeo#Section2_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#DisruptionOnMaterial">
+    <baeo:affects rdf:resource="http://www.enit.fr/2022/03/baeo#Window"/>
+    <baeo:hasDateTimeDescription rdf:resource="http://www.enit.fr/2022/03/baeo#DateTimeDescription_2022-03-25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#TransportFret">
+    <ns1:hasAgent rdf:resource="http://www.enit.fr/2022/03/baeo#AccidentVol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#VolPermis">
+    <ns1:is_part_of rdf:resource="http://www.enit.fr/2022/03/baeo#Vol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#ResponsabilitesDonneurOrdre">
+    <baeo:hasContext rdf:resource="http://www.enit.fr/2022/03/baeo#ConstructionAerienne"/>
+    <baeo:hasAgent rdf:resource="http://www.enit.fr/2022/03/baeo#DonneurOrdre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Cessna206_Immatricule">
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#Avion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#AerodromeCayenneFelixEboue">
+    <ns1:typeOf rdf:resource="http://www.enit.fr/2022/03/baeo#Aerodrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Pilote">
+    <baeo:isVictimOf rdf:resource="http://www.enit.fr/2022/03/baeo#ConsequencesDommages"/>
+    <baeo:operatesIn rdf:resource="http://www.enit.fr/2022/03/baeo#TourDeControle"/>
+    <ns1:hasLicence rdf:resource="http://www.enit.fr/2022/03/baeo#LicencePiloteProfessionnel"/>
+    <ns1:hasLicence rdf:resource="http://www.enit.fr/2022/03/baeo#LicencePiloteDeLigne"/>
+    <baeo:hasAgent rdf:resource="http://www.enit.fr/2022/03/baeo#Mission"/>
+    <baeo:hasAgent rdf:resource="http://www.enit.fr/2022/03/baeo#InterventionPrecedente"/>
+    <ns1:hasAgent rdf:resource="http://www.enit.fr/2022/03/baeo#MiseAJourLicences"/>
+    <baeo:hasQualification rdf:resource="http://www.enit.fr/2022/03/baeo#LicencesVol"/>
+    <baeo:hasLegalEmploymentCondition rdf:resource="http://www.enit.fr/2022/03/baeo#LegalConditions"/>
+    <ns1:hasActivity rdf:resource="http://www.enit.fr/2022/03/baeo#TransmissionContratLocationAvion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#ExamenBEA">
+    <ns1:hasAgent rdf:resource="http://www.enit.fr/2022/03/baeo#BEA"/>
+    <ns1:activityHasConsequence rdf:resource="http://www.enit.fr/2022/03/baeo#NonExecutionExamenMoteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Five">
+    <rdf:type rdf:resource="http://www.enit.fr/2022/03/baeo#Number"/>
+    <rdf:type rdf:resource="http://www.enit.fr/2022/03/baeo#Integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#FlightMissionCover">
+    <baeo:isCoveredBy rdf:resource="http://www.enit.fr/2022/03/baeo#ContractAssurance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Chapter2">
+    <baeo:is_part_of rdf:resource="http://www.enit.fr/2022/03/baeo#Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#SocieteGM">
+    <baeo:hasAgent rdf:resource="http://www.enit.fr/2022/03/baeo#ResponsableSocieteGM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#ResponsableSocieteGM">
+    <baeo:hasAgent rdf:resource="http://www.enit.fr/2022/03/baeo#SocieteGM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#RenseignementsMeteorologiques">
+    <baeo:hasContext rdf:resource="http://www.enit.fr/2022/03/baeo#A_2_4"/>
+    <baeo:hasDateTimeDescription rdf:resource="http://www.enit.fr/2022/03/baeo#DateTimeDescription_2_4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#John">
+    <baeo:agentCauses rdf:resource="http://www.enit.fr/2022/03/baeo#DisruptionOnMaterial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#FuiteHuile">
+    <baeo:affects rdf:resource="http://www.enit.fr/2022/03/baeo#Avion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#FelixEboue">
+    <baeo:hasLocation rdf:resource="http://www.enit.fr/2022/03/baeo#Maripasoula"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Vol">
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#MarchandisesDonneurOrdre"/>
+    <ns1:hasAgent rdf:resource="http://www.enit.fr/2022/03/baeo#Pilote"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#AccidentVol">
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#TransportFret"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#DistanceAccidentAerodrome">
+    <ns1:valueInUnitsOf rdf:resource="http://www.enit.fr/2022/03/baeo#Kilometers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Section2_3">
+    <baeo:is_part_of rdf:resource="http://www.enit.fr/2022/03/baeo#Chapter2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#DétentionLicenceExploitationTransporteurAérien">
+    <baeo:hasActivity rdf:resource="http://www.enit.fr/2022/03/baeo#TransportAérien"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Obligation">
+    <ns1:hasContext rdf:resource="http://www.enit.fr/2022/03/baeo#ReglementCE1008_2008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#ConduiteAeronef">
+    <baeo:hasAgent rdf:resource="http://www.enit.fr/2022/03/baeo#Pilote"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#ReglementationVol">
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#RespectReglementationVol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Air">
+    <baeo:hasAgent rdf:resource="http://www.enit.fr/2022/03/baeo#Air"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Accident">
+    <ns1:hasAgent rdf:resource="http://www.enit.fr/2022/03/baeo#Pilote"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Preneur">
+    <baeo:activityHasConsequence rdf:resource="http://www.enit.fr/2022/03/baeo#Responsibility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#ChampAvecArbres">
+    <ns1:locatedInside rdf:resource="http://www.enit.fr/2022/03/baeo#SiteAccident"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Section_2_6_2">
+    <rdfs:subClassOf rdf:resource="http://www.enit.fr/2022/03/baeo#Section"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#SiteAccident">
+    <ns1:near rdf:resource="http://www.enit.fr/2022/03/baeo#AerodromeCayenneFelixEboue"/>
+    <ns1:distanceFrom rdf:resource="http://www.enit.fr/2022/03/baeo#AerodromeCayenneFelixEboue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#CadreTransport_2_6_1">
+    <ns1:hasContext rdf:resource="http://www.enit.fr/2022/03/baeo#Transport_2_6_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#ParticulesMetalliques">
+    <baeo:contient rdf:resource="http://www.enit.fr/2022/03/baeo#QuantiteMetallique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Figure2">
+    <baeo:hasEvent rdf:resource="http://www.enit.fr/2022/03/baeo#ObservationMoteurSite"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#QuantiteMetallique">
+    <baeo:anormalementImportante rdf:resource="http://www.enit.fr/2022/03/baeo#ParticulesMetalliques"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#AeroLogistiques">
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#Enquete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#BE">
+    <baeo:operatesIn rdf:resource="http://www.enit.fr/2022/03/baeo#Environment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#OSIA">
+    <baeo:hasDateTimeDescription rdf:resource="http://www.enit.fr/2022/03/baeo#DateTimeDescription_25January2019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#DétentionCTA">
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#CertificatTransporteurAérien"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#ReductionTemporaireOffreTransportMaripasoula">
+    <ns1:hasContext rdf:resource="http://www.enit.fr/2022/03/baeo#DifficultiesGuyane"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#AtterrissagePrecaution">
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#BandeLaterite"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#BlessureLégère">
+    <baeo:affects rdf:resource="http://www.enit.fr/2022/03/baeo#AgentNonHuman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#DonneurOrdre">
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#CategorieTransportCommercial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Décollage">
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#PleinePuissanceAppliquée"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#SiteEpave">
+    <rdf:type rdf:resource="http://www.enit.fr/2022/03/baeo#Context"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#PrélèvementsHuile">
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#ExamenFiltreHuile"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#AvarieMoteur">
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#ArretMoteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#ExploitantPrivé">
+    <baeo:hasAgent rdf:resource="http://www.enit.fr/2022/03/baeo#NonLivingAgent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#LicencePiloteProfessionnel">
+    <rdf:type rdf:resource="http://www.enit.fr/2022/03/baeo#Licence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#ObservationMoteurSite">
+    <baeo:operatesIn rdf:resource="http://www.enit.fr/2022/03/baeo#Figure2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#DifficultiesGuyane">
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#ReductionTemporaireOffreTransportMaripasoula"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#BEA">
+    <ns2:contacted rdf:resource="http://www.enit.fr/2022/03/baeo#AESA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#RespectExigencesAssurance">
+    <baeo:yields rdf:resource="http://www.enit.fr/2022/03/baeo#ConsequenceAssuranceDefiniesReglementCE785_2004_10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#ConditionsMeteorologiques">
+    <baeo:hasLocation rdf:resource="http://www.enit.fr/2022/03/baeo#Cayenne"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#ContratLocationAvion">
+    <ns1:hasContext rdf:resource="http://www.enit.fr/2022/03/baeo#ContexteSansPiloteEtCarburant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#DiminutionPresionHuile">
+    <baeo:yields rdf:resource="http://www.enit.fr/2022/03/baeo#DecisionDetourPilote"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Window">
+    <baeo:hasLocation rdf:resource="http://www.enit.fr/2022/03/baeo#ENITCampus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Number">
+    <rdfs:subClassOf rdf:resource="http://www.enit.fr/2022/03/baeo#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Triplet_2_6_2">
+    <rdf:type rdf:resource="http://www.enit.fr/2022/03/baeo#Section"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#AccidentSite">
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#ChampAvecArbres"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#ConsequencesDommages">
+    <baeo:affects rdf:resource="http://www.enit.fr/2022/03/baeo#Pilote"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Event1">
+    <baeo:hasEvent rdf:resource="http://www.enit.fr/2022/03/baeo#DisruptionOnMaterial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#EtatTechniqueAppareil">
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#VolPermis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Triplet2_3_2">
+    <baeo:is_part_of rdf:resource="http://www.enit.fr/2022/03/baeo#Section2_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#ContractAssurance">
+    <baeo:hasSameNumberWith rdf:resource="http://www.enit.fr/2022/03/baeo#FlightMissionCover"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.enit.fr/2022/03/baeo#Moteur">
+    <ns1:yields rdf:resource="http://www.enit.fr/2022/03/baeo#ExamenBEA"/>
+  </rdf:Description>
+</rdf:RDF>

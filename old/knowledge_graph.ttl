@@ -1,0 +1,179 @@
+@prefix baeo: <http://www.enit.fr/2022/03/baeo#> .
+@prefix ns1: <http://www.enit.fr/2022/03/baeo/> .
+@prefix ns2: <http://www.enit.fr/2022/03/baeo/operations/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+baeo:Accident ns1:hasAgent baeo:Pilote .
+
+baeo:AccidentSite ns1:yields baeo:ChampAvecArbres .
+
+baeo:AeroLogistiques ns1:yields baeo:Enquete .
+
+baeo:AtterrissagePrecaution ns1:yields baeo:BandeLaterite .
+
+baeo:AvarieMoteur ns1:yields baeo:ArretMoteur .
+
+baeo:BE baeo:operatesIn baeo:Environment .
+
+baeo:BlessureLégère baeo:affects baeo:AgentNonHuman .
+
+baeo:Cessna206_Immatricule ns1:yields baeo:Avion .
+
+baeo:ConditionsMeteorologiques baeo:hasLocation baeo:Cayenne .
+
+baeo:ConduiteAeronef baeo:hasAgent baeo:Pilote .
+
+baeo:ContratDistinct baeo:hasAgent baeo:DonneurOrdre .
+
+baeo:ContratLocationAvion ns1:hasContext baeo:ContexteSansPiloteEtCarburant .
+
+baeo:DiminutionPresionHuile baeo:yields baeo:DecisionDetourPilote .
+
+baeo:DistanceAccidentAerodrome ns1:valueInUnitsOf baeo:Kilometers .
+
+baeo:Décollage ns1:yields baeo:PleinePuissanceAppliquée .
+
+baeo:DétentionCTA ns1:yields baeo:CertificatTransporteurAérien .
+
+baeo:DétentionLicenceExploitationTransporteurAérien baeo:hasActivity baeo:TransportAérien .
+
+baeo:EtatTechniqueAppareil ns1:yields baeo:VolPermis .
+
+baeo:Event1 baeo:hasEvent baeo:DisruptionOnMaterial .
+
+baeo:Examens baeo:hasActivity baeo:Activity .
+
+baeo:ExploitantPrivé baeo:hasAgent baeo:NonLivingAgent .
+
+baeo:FelixEboue baeo:hasLocation baeo:Maripasoula .
+
+baeo:Five a baeo:Integer,
+        baeo:Number .
+
+baeo:FuiteHuile baeo:affects baeo:Avion .
+
+baeo:Hammer baeo:hasAgent baeo:John .
+
+baeo:Moteur ns1:yields baeo:ExamenBEA .
+
+baeo:OSIA baeo:hasDateTimeDescription baeo:DateTimeDescription_25January2019 .
+
+baeo:Obligation ns1:hasContext baeo:ReglementCE1008_2008 .
+
+baeo:PolicesAssurance ns1:hasAgent baeo:AgentAssurance ;
+    ns1:yields baeo:Assurance .
+
+baeo:Preneur baeo:activityHasConsequence baeo:Responsibility .
+
+baeo:PrélèvementsHuile ns1:yields baeo:ExamenFiltreHuile .
+
+baeo:ReglementationVol ns1:yields baeo:RespectReglementationVol .
+
+baeo:RenseignementsAvion baeo:hasContext baeo:Section2_3 .
+
+baeo:RenseignementsMeteorologiques baeo:hasContext baeo:A_2_4 ;
+    baeo:hasDateTimeDescription baeo:DateTimeDescription_2_4 .
+
+baeo:RespectExigencesAssurance baeo:yields baeo:ConsequenceAssuranceDefiniesReglementCE785_2004_10 .
+
+baeo:ResponsabilitesDonneurOrdre baeo:hasAgent baeo:DonneurOrdre ;
+    baeo:hasContext baeo:ConstructionAerienne .
+
+baeo:Section_2_6_2 rdfs:subClassOf baeo:Section .
+
+baeo:SiteEpave a baeo:Context .
+
+baeo:TransportAerienCommercial baeo:hasContext baeo:Activity ;
+    baeo:operatesIn baeo:Environment_Aerial ;
+    ns1:yields baeo:AcheminementParAeronef .
+
+baeo:Triplet2_3_2 baeo:is_part_of baeo:Section2_3 .
+
+baeo:Triplet_2_6_2 a baeo:Section .
+
+baeo:Triplet_2_6_4 a baeo:TemporalEntity .
+
+rdfs:Literal a rdfs:Integer .
+
+baeo:AccidentVol ns1:yields baeo:TransportFret .
+
+baeo:Air baeo:hasAgent baeo:Air .
+
+baeo:BEA ns2:contacted baeo:AESA .
+
+baeo:CadreTransport_2_6_1 ns1:hasContext baeo:Transport_2_6_1 .
+
+baeo:ChampAvecArbres ns1:locatedInside baeo:SiteAccident .
+
+baeo:Chapter2 baeo:is_part_of baeo:Book .
+
+baeo:ConsequencesDommages baeo:affects baeo:Pilote .
+
+baeo:ContractAssurance baeo:hasSameNumberWith baeo:FlightMissionCover .
+
+baeo:DifficultiesGuyane ns1:yields baeo:ReductionTemporaireOffreTransportMaripasoula .
+
+baeo:ExamenBEA ns1:activityHasConsequence baeo:NonExecutionExamenMoteur ;
+    ns1:hasAgent baeo:BEA .
+
+baeo:Figure2 baeo:hasEvent baeo:ObservationMoteurSite .
+
+baeo:FlightMissionCover baeo:isCoveredBy baeo:ContractAssurance .
+
+baeo:John baeo:agentCauses baeo:DisruptionOnMaterial .
+
+baeo:LicencePiloteDeLigne a baeo:Licence .
+
+baeo:LicencePiloteProfessionnel a baeo:Licence .
+
+baeo:Number rdfs:subClassOf baeo:Resource .
+
+baeo:ObservationMoteurSite baeo:operatesIn baeo:Figure2 .
+
+baeo:ParticulesMetalliques baeo:contient baeo:QuantiteMetallique .
+
+baeo:QuantiteMetallique baeo:anormalementImportante baeo:ParticulesMetalliques .
+
+baeo:ReductionTemporaireOffreTransportMaripasoula ns1:hasContext baeo:DifficultiesGuyane .
+
+baeo:ResponsableSocieteGM baeo:hasAgent baeo:SocieteGM .
+
+baeo:SiteAccident ns1:distanceFrom baeo:AerodromeCayenneFelixEboue ;
+    ns1:near baeo:AerodromeCayenneFelixEboue .
+
+baeo:SocieteGM baeo:hasAgent baeo:ResponsableSocieteGM .
+
+baeo:TransportFret ns1:hasAgent baeo:AccidentVol .
+
+baeo:Transport_2_6_1 ns1:yields baeo:CadreTransport_2_6_1 .
+
+baeo:Vol ns1:hasAgent baeo:Pilote ;
+    ns1:yields baeo:MarchandisesDonneurOrdre .
+
+baeo:VolPermis ns1:is_part_of baeo:Vol .
+
+baeo:Window baeo:hasLocation baeo:ENITCampus .
+
+baeo:Activity baeo:hasAgent baeo:Agent ;
+    baeo:hasContext baeo:Context .
+
+baeo:AerodromeCayenneFelixEboue ns1:typeOf baeo:Aerodrome .
+
+baeo:DisruptionOnMaterial baeo:affects baeo:Window ;
+    baeo:hasDateTimeDescription baeo:DateTimeDescription_2022-03-25 .
+
+baeo:DonneurOrdre ns1:yields baeo:CategorieTransportCommercial .
+
+baeo:Section2_3 baeo:is_part_of baeo:Chapter2 .
+
+baeo:Pilote baeo:hasAgent baeo:InterventionPrecedente,
+        baeo:Mission ;
+    baeo:hasLegalEmploymentCondition baeo:LegalConditions ;
+    baeo:hasQualification baeo:LicencesVol ;
+    baeo:isVictimOf baeo:ConsequencesDommages ;
+    baeo:operatesIn baeo:TourDeControle ;
+    ns1:hasActivity baeo:TransmissionContratLocationAvion ;
+    ns1:hasAgent baeo:MiseAJourLicences ;
+    ns1:hasLicence baeo:LicencePiloteDeLigne,
+        baeo:LicencePiloteProfessionnel .
+

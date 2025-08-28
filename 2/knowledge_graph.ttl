@@ -1,0 +1,272 @@
+@prefix baeo: <http://www.enit.fr/2022/03/baeo#> .
+@prefix ns1: <http://www.enit.fr/2022/03/baeo/property#> .
+@prefix ns2: <http://www.enit.fr/2022/03/baeo/> .
+@prefix ns3: <http://www.enit.fr/2022/03/baeo/properties#> .
+@prefix ns4: <http://www.enit.fr/2022/03/baeo/def#> .
+@prefix ns5: <http://www.enit.fr/2022/03/baeo/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+baeo:Accident ns2:hasAgent baeo:Pilote .
+
+baeo:ArticleL6400_3CodeTransports ns4:isDefinedIn baeo:CodeDesTransports .
+
+baeo:Atterrissage ns2:hasSubActivity baeo:TrainAvantRompu .
+
+baeo:BEAEnquetes ns2:hasContext baeo:AmeliorationSecuriteAerienne .
+
+baeo:CadreReglementaire a baeo:Context ;
+    ns2:hasContext baeo:Reglementation .
+
+baeo:Cessna206 ns2:hasMaterialResource baeo:Immatriculation ;
+    ns2:hasType baeo:Cessna206Type .
+
+baeo:Compagnie9 ns2:has_resource baeo:ReglementParlementEuropeenEtConseil24Septembre2008 .
+
+baeo:CompagnieCTA ns2:hasCosts baeo:HighCosts,
+        baeo:TransportLocationNue ;
+    ns2:isTypeOf baeo:CTACompany,
+        baeo:Company .
+
+baeo:ConsequencesEtDommages ns3:hasConsequence baeo:Consequence .
+
+baeo:DTA ns1:operatesIn baeo:TransportAerienPassagers ;
+    ns1:provokes baeo:PrestationsServiceOnereux .
+
+baeo:Decollage ns2:hasSubActivity baeo:AvarieMoteur .
+
+baeo:DeuxRenseignements ns2:hasTemporalEntity baeo:Renseignements .
+
+baeo:EnseignementSecurite ns2:hasContext baeo:Securite ;
+    ns2:hasTRS baeo:TRS_EnseignementSecurite .
+
+baeo:ExigenceMLA403 baeo:hasConsequence baeo:ImpératifsGestionDefauts ;
+    baeo:hasContext baeo:GestionDefautsAeronefService .
+
+baeo:FelixEboue ns2:hasAgent baeo:FelixEboueAgent .
+
+baeo:Figure1 ns3:hasLocation baeo:SiteAccident .
+
+baeo:Formule ns2:activityHasConsequence baeo:MauvaiseComprehension ;
+    ns2:hasContext baeo:TransportCommercial .
+
+baeo:FournitureEquipageConduiteAeronef ns2:agentConsequence baeo:BailleurAeronef .
+
+baeo:FournitureEquipageConduiteAeronefDirecteIndirecte ns2:affects baeo:RglesTransportAerienPublic .
+
+baeo:InterventionMecanicien ns5:after baeo:Incident .
+
+baeo:LocationCoqueNueAeronef ns4:hasContext ns4:ArticleL6400_3CodeTransports ;
+    ns2:hasContext baeo:ReglesTransportAerienPublic .
+
+baeo:NouveauRadiateur ns2:hasResource baeo:Radiateur .
+
+baeo:Pilot ns3:inConfiguration baeo:SmoothConfiguration .
+
+baeo:PiloteCall13h16 baeo:givesPosition baeo:Position .
+
+baeo:PiloteResponsabilites baeo:activityHasConsequence baeo:ConsequenceOnMaterial .
+
+baeo:PrelevementHuile ns2:hasContext baeo:ExamenFiltreHuile .
+
+baeo:PrestationPilotage ns3:hasSubActivity baeo:Vol .
+
+baeo:Rapport a baeo:Activity ;
+    ns2:hasAgent baeo:AgentRapporteur ;
+    ns2:hasContext baeo:AccidentGuyane ;
+    ns2:hasDateTimeDescription baeo:DateRapport .
+
+baeo:Reglement ns3:defines baeo:Activity,
+        baeo:ClassesAndProperties .
+
+baeo:ReglementCommission26Novembre2014 ns2:hasTemporalDuration baeo:VersionVigueurJourAccident .
+
+baeo:ResponsabiliteDonneurOrdre ns1:hasAgent baeo:Agent ;
+    ns1:hasConsequence baeo:Consequence ;
+    ns1:hasContext baeo:DonneurOrdre .
+
+baeo:RgeCE10082008 a baeo:GeneralDateTimeDescription .
+
+baeo:RomptTrainAvant a baeo:ConsequenceOnMaterial .
+
+baeo:RuptureBielle a baeo:Cause ;
+    ns2:agentCauses baeo:PerforationCarter ;
+    ns2:hasConsequence baeo:PerforationCarter ;
+    ns2:hasSubLocation baeo:Moteur .
+
+baeo:RéglementCE1008_2008 ns2:hasResource baeo:ReglementCE1008_2008 .
+
+baeo:TransportCommercialMarchandises ns2:hasAgent baeo:Pilote .
+
+baeo:TransportComptePropre ns3:operatesIn baeo:LocationCoqueNue .
+
+baeo:TransportPourComptePropre baeo:hasContext baeo:TransportEntreprises .
+
+baeo:UniquePilot_9H_MDJ ns2:hasAgent baeo:Pilote_9H_MDJ .
+
+baeo:Version264 a baeo:Version .
+
+baeo:VolAccidentMaripasoula ns2:hasContext baeo:MaripasoulaCommune .
+
+baeo:ActionChangement ns2:hasAgent baeo:JointRadiateurHuile ;
+    ns2:hasConsequence baeo:SansEffet .
+
+baeo:AgentRapporteur a baeo:Human .
+
+baeo:AgentTransportAerien ns2:hasActivity baeo:TransportAerienCommercial .
+
+baeo:AircraftMaterials ns3:hasResource baeo:MaterialResource1,
+        baeo:MaterialResource2 .
+
+baeo:AircraftSystems ns3:hasNonPhysicalResource baeo:NonPhysicalResource1,
+        baeo:NonPhysicalResource2 .
+
+baeo:ArretMoteur ns2:hasConsequence baeo:AtterrissageUrgence .
+
+baeo:ArticleL6412_2CodeTransports ns2:hasResource baeo:ArticleL6412_2CodeTransports .
+
+baeo:AtterrissageUrgence ns2:hasLocation baeo:Champ .
+
+baeo:AvarieMoteur ns2:agentCauses baeo:Pilote ;
+    ns2:hasConsequence baeo:ArretMoteur .
+
+baeo:BEA ns2:is_a baeo:Agent ;
+    ns2:is_part_of baeo:BAE .
+
+baeo:BEA_Aero ns2:hasTRS baeo:RapportEnqueteSecurite .
+
+baeo:Carter a baeo:MaterialResource .
+
+baeo:CayenneFelixEboueAerodromeEnvironnement ns2:has_environment baeo:ChampArbres .
+
+baeo:CodeDesTransports ns4:isA baeo:LegalText .
+
+baeo:DateRapport a baeo:DateTimeDescription .
+
+baeo:Document ns2:hasAeronef baeo:Aeronef .
+
+baeo:DocumentsAdministratifs a baeo:Resource .
+
+baeo:Epave ns2:hasLocation baeo:ExamenEpaveMoteur .
+
+baeo:ExamenEpaveMoteur a baeo:Event ;
+    ns2:hasConsequence baeo:PerforationCarter .
+
+baeo:FelixEboueAgent ns2:hasLocation baeo:Maripasoula .
+
+baeo:GestionDefautsAeronefService baeo:activityHasConsequence baeo:ImpératifsGestionDefauts .
+
+baeo:Guyane a baeo:Location .
+
+baeo:HelicoptereAgustaBellAB206 a baeo:MaterialResource ;
+    ns2:induces baeo:AccidentGuyane .
+
+baeo:LicenceExploitationTransporteurAerien ns2:hasResource baeo:Licence .
+
+baeo:MainOntology ns3:hasVersion baeo:Version2_6 .
+
+baeo:Maripasoula a ns2:Location .
+
+baeo:MaripasoulaCommune ns2:hasAccess baeo:Avion,
+        baeo:Pirogue .
+
+baeo:Moteur ns2:hasLocation baeo:Epave ;
+    ns2:has_not_been_examined_by baeo:BEA ;
+    ns2:is_a baeo:MaterialResource .
+
+baeo:PiloteLinkAeroLogistiques baeo:hasAgent baeo:Pilote ;
+    baeo:isVictimOf baeo:PrescriptionDGAC .
+
+baeo:PisteAtterrissage owl:sameAs <http://sws.geonames.org/2968030/> .
+
+baeo:PrescriptionDGAC baeo:affects baeo:PiloteLinkAeroLogistiques ;
+    baeo:agentCauses baeo:DGAC .
+
+baeo:RapportEnqueteSecurite ns2:hasDateTimeDescription baeo:RapportEnqueteSecurite_DateTimeDescription ;
+    ns2:hasLocation baeo:BEA_Aero ;
+    ns2:yields baeo:RapportEnqueteSecurite_Consequence .
+
+baeo:ReglementParlementEuropeenEtConseil24Septembre2008 ns2:operatesIn baeo:CommunauteEuropeenne ;
+    ns2:versionEnVigueur baeo:JourDeLAccident .
+
+baeo:Resource_EnseignementSecurite ns2:has_environment baeo:Environment_EnseignementSecurite .
+
+baeo:SansEffet ns2:hasConsequence baeo:ActionChangement,
+        baeo:JointRadiateurHuile .
+
+baeo:SiteAccident ns2:hasLocation baeo:ChampArbres ;
+    ns2:is_part_of baeo:CayenneFelixEboueAerodromeEnvironnement .
+
+baeo:TRS_EnseignementSecurite ns2:has_resource baeo:Resource_EnseignementSecurite .
+
+baeo:TrainAvantRompu a baeo:Cause,
+        baeo:Failure ;
+    ns2:hasConsequence baeo:GlisseAvantImmobilisation .
+
+baeo:TransportAerienPassagers a baeo:Context ;
+    ns1:requiert baeo:DocumentsAdministratifs .
+
+baeo:TransportLocationNue ns2:hasCosts baeo:LowerCosts ;
+    ns2:isTypeOf baeo:BareboatCharter,
+        baeo:Transport .
+
+baeo:Version2_6 ns3:isVersionOf baeo:MainOntology .
+
+baeo:Vol ns3:hasContext baeo:Affretement .
+
+baeo:VolType ns3:engagesResponsabilite baeo:DonneurOrdre ;
+    ns3:offersGaranties baeo:TransportAerienCommercial .
+
+baeo:AccidentGuyane a baeo:Destruction ;
+    ns2:hasLocation baeo:Guyane ;
+    ns2:hasMaterialResource baeo:HelicoptereAgustaBellAB206 .
+
+baeo:Agent ns1:operatesIn baeo:Environment .
+
+baeo:Avion ns2:hasLocation baeo:PisteAtterrissage ;
+    ns2:hasSubConsequence baeo:GlisseAvantImmobilisation ;
+    ns3:hasMaterialResource baeo:AircraftMaterials ;
+    ns3:hasNonMaterialResource baeo:AircraftSystems ;
+    ns3:operatesIn baeo:Air .
+
+baeo:CTALicenceExploitation a baeo:ConsequenceOnMaterial .
+
+baeo:ChampArbres ns2:operatesIn baeo:CayenneFelixEboueAerodrome .
+
+baeo:Consequence ns1:hasSubConsequence baeo:Destruction,
+        baeo:Disruption .
+
+baeo:Disruption ns1:affects baeo:Activity .
+
+baeo:DonneurOrdre ns2:hasContext baeo:DomaineAeronautique ;
+    ns2:isVictimOf baeo:MauvaiseComprehension ;
+    ns3:responsibleFor baeo:VolType ;
+    ns1:hasAgent baeo:Human .
+
+baeo:GlisseAvantImmobilisation a baeo:ConsequenceOnMaterial,
+        baeo:Disruption ;
+    ns2:affects baeo:Avion .
+
+baeo:JointRadiateurHuile ns2:hasMaterialResource baeo:RadiateurHuile .
+
+baeo:PrestationsServiceOnereux a baeo:Activity ;
+    ns1:hasConsequence baeo:CTALicenceExploitation .
+
+baeo:TransportAerienCommercial ns2:hasAgent baeo:AgentTransportAerien ;
+    ns2:hasConsequence baeo:LicenceExploitationTransporteurAerien ;
+    ns2:hasContext baeo:ObligationsReglementaires .
+
+baeo:Destruction ns1:affects baeo:MaterialResource .
+
+baeo:PerforationCarter a baeo:ConsequenceOnMaterial,
+        baeo:Destruction ;
+    ns2:hasMaterialResource baeo:Carter .
+
+baeo:Pilote ns2:hasAgent baeo:Document,
+        baeo:PanneMoteurDeclaration ;
+    ns2:hasLicence baeo:LicencePiloteDeLigne,
+        baeo:LicencePiloteProfessionnel ;
+    ns3:hasLegalEmploymentCondition baeo:ConditionsLegales ;
+    ns3:hasQualification baeo:LicencesNecessairesAuVol ;
+    ns1:hasAgent baeo:PrestationsServiceOnereux ;
+    ns1:hasDocumentAdministratif baeo:CTALicenceExploitation .
+
